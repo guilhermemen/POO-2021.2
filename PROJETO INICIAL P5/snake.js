@@ -35,9 +35,9 @@ function food_generate() {
 function setup() {
   createCanvas(NC * LADO, NL * LADO)
   frameRate(30);
-  snake_color = color("blue");
-  cell_color = color("gray");
-  food_color = color("yellow");
+  snake_color = color("orange");
+  cell_color = color("purple");
+  food_color = color("black");
   food_generate();
 }
 
